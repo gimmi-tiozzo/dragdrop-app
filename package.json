@@ -1,0 +1,23 @@
+{
+    "name": "myapp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "tsc --watch",
+        "build": "webpack",
+        "start": "webpack serve",
+        "build_prod": "webpack --config webpack.config.prod.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "clean-webpack-plugin": "^3.0.0",
+        "ts-loader": "^8.0.17",
+        "typescript": "^4.2.2",
+        "webpack": "^5.24.2",
+        "webpack-cli": "^4.5.0",
+        "webpack-dev-server": "^3.11.2"
+    }
+}
